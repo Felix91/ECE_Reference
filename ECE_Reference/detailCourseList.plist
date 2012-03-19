@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Power option</key>
+	<array>
+		<string>Power course</string>
+	</array>
+	<key>Biomed option</key>
+	<array>
+		<string>Biosignals</string>
+		<string>Biomems</string>
+	</array>
+	<key>Software option</key>
+	<array>
+		<string>etc</string>
+	</array>
+	<key>Nano option</key>
+	<array>
+		<string>etc</string>
+	</array>
+</dict>
+</plist>
