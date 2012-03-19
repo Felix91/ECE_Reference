@@ -1,21 +1,14 @@
 //
-//  UpdateViewController.m
+//  NewsfeedViewController.m
 //  ECE_Reference
 //
 //  Created by 薇葭 张 on 12-03-18.
 //  Copyright (c) 2012 UBC. All rights reserved.
 //
 
-#import "NewsFeed.h"
+#import "NewsfeedViewController.h"
 
-@implementation UpdateViewController
-@synthesize UpdateLabel;
-@synthesize updateButton;
-
--(IBAction)buttonPressed:(id)sender
-{
-    UpdateLabel.text=@"HOHOHO";
-}
+@implementation NewsfeedViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -44,8 +37,6 @@
 
 - (void)viewDidUnload
 {
-    [self setUpdateLabel:nil];
-    [self setUpdateButton:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

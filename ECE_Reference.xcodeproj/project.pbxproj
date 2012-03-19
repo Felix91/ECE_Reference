@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		85A6101715169455005F2837 /* NewsFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A6101515169455005F2837 /* NewsFeed.m */; };
+		85572E121516BFDC002F297D /* detailCourseList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85572E111516BFDC002F297D /* detailCourseList.plist */; };
+		857D03D91516AD45007919EF /* NewsfeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 857D03D71516AD45007919EF /* NewsfeedViewController.m */; };
+		857D03DE1516AFF4007919EF /* ElectivesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 857D03DC1516AFF4007919EF /* ElectivesViewController.m */; };
+		857D03E11516B2BF007919EF /* courseList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 857D03E01516B2BF007919EF /* courseList.plist */; };
 		8AEA8D72150D462C0024EDAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AEA8D71150D462C0024EDAD /* UIKit.framework */; };
 		8AEA8D74150D462C0024EDAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AEA8D73150D462C0024EDAD /* Foundation.framework */; };
 		8AEA8D76150D462C0024EDAD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AEA8D75150D462C0024EDAD /* CoreGraphics.framework */; };
@@ -35,8 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		85A6101415169455005F2837 /* NewsFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; path = NewsFeed.h; sourceTree = "<group>"; };
-		85A6101515169455005F2837 /* NewsFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsFeed.m; sourceTree = "<group>"; };
+		85572E111516BFDC002F297D /* detailCourseList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = detailCourseList.plist; sourceTree = "<group>"; };
+		857D03D61516AD45007919EF /* NewsfeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsfeedViewController.h; sourceTree = "<group>"; };
+		857D03D71516AD45007919EF /* NewsfeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsfeedViewController.m; sourceTree = "<group>"; };
+		857D03DB1516AFF4007919EF /* ElectivesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElectivesViewController.h; sourceTree = "<group>"; };
+		857D03DC1516AFF4007919EF /* ElectivesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElectivesViewController.m; sourceTree = "<group>"; };
+		857D03E01516B2BF007919EF /* courseList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = courseList.plist; sourceTree = "<group>"; };
 		8AEA8D6D150D462C0024EDAD /* ECE_Reference.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECE_Reference.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AEA8D71150D462C0024EDAD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8AEA8D73150D462C0024EDAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -119,8 +126,12 @@
 				8AEA8D80150D462C0024EDAD /* AppDelegate.h */,
 				8AEA8D81150D462C0024EDAD /* AppDelegate.m */,
 				8AEA8D83150D462D0024EDAD /* MainStoryboard_iPhone.storyboard */,
-				85A6101415169455005F2837 /* NewsFeed.h */,
-				85A6101515169455005F2837 /* NewsFeed.m */,
+				857D03DB1516AFF4007919EF /* ElectivesViewController.h */,
+				857D03DC1516AFF4007919EF /* ElectivesViewController.m */,
+				857D03E01516B2BF007919EF /* courseList.plist */,
+				85572E111516BFDC002F297D /* detailCourseList.plist */,
+				857D03D61516AD45007919EF /* NewsfeedViewController.h */,
+				857D03D71516AD45007919EF /* NewsfeedViewController.m */,
 				8AEA8D86150D462D0024EDAD /* MainStoryboard_iPad.storyboard */,
 				8AEA8D89150D462D0024EDAD /* ViewController.h */,
 				8AEA8D8A150D462D0024EDAD /* ViewController.m */,
@@ -233,6 +244,8 @@
 				8AEA8D7C150D462C0024EDAD /* InfoPlist.strings in Resources */,
 				8AEA8D85150D462D0024EDAD /* MainStoryboard_iPhone.storyboard in Resources */,
 				8AEA8D88150D462D0024EDAD /* MainStoryboard_iPad.storyboard in Resources */,
+				857D03E11516B2BF007919EF /* courseList.plist in Resources */,
+				85572E121516BFDC002F297D /* detailCourseList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +283,8 @@
 				8AEA8D7E150D462C0024EDAD /* main.m in Sources */,
 				8AEA8D82150D462C0024EDAD /* AppDelegate.m in Sources */,
 				8AEA8D8B150D462D0024EDAD /* ViewController.m in Sources */,
-				85A6101715169455005F2837 /* NewsFeed.m in Sources */,
+				857D03D91516AD45007919EF /* NewsfeedViewController.m in Sources */,
+				857D03DE1516AFF4007919EF /* ElectivesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +392,7 @@
 		8AEA8DA4150D462D0024EDAD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ECE_Reference/ECE_Reference-Prefix.pch";
 				INFOPLIST_FILE = "ECE_Reference/ECE_Reference-Info.plist";
@@ -389,6 +404,7 @@
 		8AEA8DA5150D462D0024EDAD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ECE_Reference/ECE_Reference-Prefix.pch";
 				INFOPLIST_FILE = "ECE_Reference/ECE_Reference-Info.plist";
