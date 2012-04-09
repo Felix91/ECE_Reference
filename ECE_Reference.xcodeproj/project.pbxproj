@@ -32,6 +32,10 @@
 		8AB5D108152FCEA3002BCBB9 /* GDataXMLElement-Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB5D107152FCEA3002BCBB9 /* GDataXMLElement-Extras.m */; };
 		8AB5D10D152FDDAA002BCBB9 /* NSDate+InternetDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB5D10C152FDDAA002BCBB9 /* NSDate+InternetDateTime.m */; };
 		8AB5D110152FDFA9002BCBB9 /* NSArray+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB5D10F152FDFA9002BCBB9 /* NSArray+Extras.m */; };
+		8AC17B0915326A7C008B0E34 /* detailedElectivesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC17B0715326A7C008B0E34 /* detailedElectivesView.m */; };
+		8AC17B0A15326A7C008B0E34 /* detailedElectivesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC17B0815326A7C008B0E34 /* detailedElectivesView.xib */; };
+		8AC17B2915326CC7008B0E34 /* informationCourseList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8AC17B2815326CC7008B0E34 /* informationCourseList.plist */; };
+		8AC17B2D15326D2C008B0E34 /* face.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AC17B2C15326D2C008B0E34 /* face.jpg */; };
 		8AEA8D72150D462C0024EDAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AEA8D71150D462C0024EDAD /* UIKit.framework */; };
 		8AEA8D74150D462C0024EDAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AEA8D73150D462C0024EDAD /* Foundation.framework */; };
 		8AEA8D76150D462C0024EDAD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AEA8D75150D462C0024EDAD /* CoreGraphics.framework */; };
@@ -59,6 +63,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		850EB7351516C62300ACD45A /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		850EB7361516C62300ACD45A /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
 		85572E111516BFDC002F297D /* detailCourseList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = detailCourseList.plist; sourceTree = "<group>"; };
 		857D03DB1516AFF4007919EF /* ElectivesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElectivesViewController.h; sourceTree = "<group>"; };
 		857D03DC1516AFF4007919EF /* ElectivesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElectivesViewController.m; sourceTree = "<group>"; };
@@ -105,6 +111,11 @@
 		8AB5D10C152FDDAA002BCBB9 /* NSDate+InternetDateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+InternetDateTime.m"; sourceTree = "<group>"; };
 		8AB5D10E152FDFA9002BCBB9 /* NSArray+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extras.h"; sourceTree = "<group>"; };
 		8AB5D10F152FDFA9002BCBB9 /* NSArray+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Extras.m"; sourceTree = "<group>"; };
+		8AC17B0615326A7C008B0E34 /* detailedElectivesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detailedElectivesView.h; sourceTree = "<group>"; };
+		8AC17B0715326A7C008B0E34 /* detailedElectivesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detailedElectivesView.m; sourceTree = "<group>"; };
+		8AC17B0815326A7C008B0E34 /* detailedElectivesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = detailedElectivesView.xib; sourceTree = "<group>"; };
+		8AC17B2815326CC7008B0E34 /* informationCourseList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = informationCourseList.plist; sourceTree = "<group>"; };
+		8AC17B2C15326D2C008B0E34 /* face.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = face.jpg; sourceTree = "<group>"; };
 		8AEA8D6D150D462C0024EDAD /* ECE_Reference.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECE_Reference.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AEA8D71150D462C0024EDAD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8AEA8D73150D462C0024EDAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -204,6 +215,14 @@
 			path = MWFeedParser;
 			sourceTree = "<group>";
 		};
+		8AC17B2B15326D2C008B0E34 /* detailedElevtivesViewPictures */ = {
+			isa = PBXGroup;
+			children = (
+				8AC17B2C15326D2C008B0E34 /* face.jpg */,
+			);
+			path = detailedElevtivesViewPictures;
+			sourceTree = "<group>";
+		};
 		8AEA8D62150D462C0024EDAD = {
 			isa = PBXGroup;
 			children = (
@@ -251,6 +270,11 @@
 				8A07D33A151EE86700EF9C2F /* RSSEntry.h */,
 				8A07D33B151EE86700EF9C2F /* RSSEntry.m */,
 				857D03DB1516AFF4007919EF /* ElectivesViewController.h */,
+				8AC17B0615326A7C008B0E34 /* detailedElectivesView.h */,
+				8AC17B0715326A7C008B0E34 /* detailedElectivesView.m */,
+				8AC17B2B15326D2C008B0E34 /* detailedElevtivesViewPictures */,
+				8AC17B2815326CC7008B0E34 /* informationCourseList.plist */,
+				8AC17B0815326A7C008B0E34 /* detailedElectivesView.xib */,
 				857D03DC1516AFF4007919EF /* ElectivesViewController.m */,
 				857D03E01516B2BF007919EF /* courseList.plist */,
 				85572E111516BFDC002F297D /* detailCourseList.plist */,
@@ -258,6 +282,8 @@
 				8A07D33F151EF42000EF9C2F /* NewsViewController.m */,
 				8AEA8D86150D462D0024EDAD /* MainStoryboard_iPad.storyboard */,
 				8AEA8D89150D462D0024EDAD /* ViewController.h */,
+				850EB7351516C62300ACD45A /* VideoViewController.h */,
+				850EB7361516C62300ACD45A /* VideoViewController.m */,
 				8AEA8D8A150D462D0024EDAD /* ViewController.m */,
 				8AEA8D78150D462C0024EDAD /* Supporting Files */,
 				8AB5D10E152FDFA9002BCBB9 /* NSArray+Extras.h */,
@@ -377,6 +403,9 @@
 				85572E121516BFDC002F297D /* detailCourseList.plist in Resources */,
 				8A9E6973152FED7A0098DF98 /* WebViewController.xib in Resources */,
 				8A9E6975153024D20098DF98 /* Default.png in Resources */,
+				8AC17B0A15326A7C008B0E34 /* detailedElectivesView.xib in Resources */,
+				8AC17B2915326CC7008B0E34 /* informationCourseList.plist in Resources */,
+				8AC17B2D15326D2C008B0E34 /* face.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +460,7 @@
 				8AB5D10D152FDDAA002BCBB9 /* NSDate+InternetDateTime.m in Sources */,
 				8AB5D110152FDFA9002BCBB9 /* NSArray+Extras.m in Sources */,
 				8A9E6972152FED7A0098DF98 /* WebViewController.m in Sources */,
+				8AC17B0915326A7C008B0E34 /* detailedElectivesView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

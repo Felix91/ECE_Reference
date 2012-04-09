@@ -17,6 +17,12 @@
 	</array>
 	<key>Nano option</key>
 	<array>
+		<string></string>
+		<string>etc</string>
+	</array>
+	<key>General</key>
+	<array>
+		<string></string>
 		<string>etc</string>
 	</array>
 </dict>

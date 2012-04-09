@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "detailedElectivesView.h"
 
 @interface ElectivesViewController : UITableViewController{
     NSDictionary *courseList;
