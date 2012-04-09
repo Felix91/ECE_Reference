@@ -95,23 +95,22 @@
     
     return cell;
 }
-/*
+
 #pragma mark - Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-	NSString *option = [self tableView:tableView titleForHeaderInSection:indexPath.section];
-	NSString *courses = [[self.courseList valueForKey:option] objectAtIndex:indexPath.row];
-    
-	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil
-													message:[NSString stringWithFormat:@"You selected %@!", courses]
-												   delegate:nil
-										  cancelButtonTitle:@"OK"
-										  otherButtonTitles:nil];
-	[alert show];
-	[alert release];
-    
-	[tableView deselectRowAtIndexPath:indexPath animated:YES];
-}*/
+
+    detailedElectivesView *detailedViewPage = [[detailedElectivesView alloc] initWithNibName:@"detailedElectivesView" bundle:[NSBundle mainBundle]];
+    NSString *option = [self tableView:tableView titleForHeaderInSection:indexPath.section];
+    detailedViewPage.courseNo= indexPath.row;
+    detailedViewPage.option=option;
+    detailedViewPage.courseName=[[self.courseList valueForKey:option] objectAtIndex:indexPath.row];
+    [self presentModalViewController:detailedViewPage animated:YES];
+    //[self.navigationController pushViewController:detailedViewPage animated:YES];
+    [detailedViewPage release];
+     detailedViewPage = nil;  
+	
+}
 
 @end

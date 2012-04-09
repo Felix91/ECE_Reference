@@ -7,10 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		850EB7341516C58400ACD45A /* youtubeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 850EB7331516C58400ACD45A /* youtubeView.m */; };
+		850EB7381516C62300ACD45A /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 850EB7361516C62300ACD45A /* VideoViewController.m */; };
+		853F7587153030A700594B68 /* face.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 853F7586153030A700594B68 /* face.jpg */; };
 		85572E121516BFDC002F297D /* detailCourseList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85572E111516BFDC002F297D /* detailCourseList.plist */; };
 		857D03D91516AD45007919EF /* NewsfeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 857D03D71516AD45007919EF /* NewsfeedViewController.m */; };
 		857D03DE1516AFF4007919EF /* ElectivesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 857D03DC1516AFF4007919EF /* ElectivesViewController.m */; };
 		857D03E11516B2BF007919EF /* courseList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 857D03E01516B2BF007919EF /* courseList.plist */; };
+		8580EFB41527D3A2000423D6 /* detailedElectivesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8580EFB21527D3A2000423D6 /* detailedElectivesView.m */; };
+		8580EFB51527D3A2000423D6 /* detailedElectivesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8580EFB31527D3A2000423D6 /* detailedElectivesView.xib */; };
+		8580EFBA1527E000000423D6 /* informationCourseList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8580EFB91527E000000423D6 /* informationCourseList.plist */; };
 		8AEA8D72150D462C0024EDAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AEA8D71150D462C0024EDAD /* UIKit.framework */; };
 		8AEA8D74150D462C0024EDAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AEA8D73150D462C0024EDAD /* Foundation.framework */; };
 		8AEA8D76150D462C0024EDAD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AEA8D75150D462C0024EDAD /* CoreGraphics.framework */; };
@@ -38,12 +44,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		850EB7321516C58400ACD45A /* youtubeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = youtubeView.h; sourceTree = "<group>"; };
+		850EB7331516C58400ACD45A /* youtubeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = youtubeView.m; sourceTree = "<group>"; };
+		850EB7351516C62300ACD45A /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		850EB7361516C62300ACD45A /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		853F7586153030A700594B68 /* face.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = face.jpg; path = ../../../../Desktop/face.jpg; sourceTree = "<group>"; };
 		85572E111516BFDC002F297D /* detailCourseList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = detailCourseList.plist; sourceTree = "<group>"; };
 		857D03D61516AD45007919EF /* NewsfeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsfeedViewController.h; sourceTree = "<group>"; };
 		857D03D71516AD45007919EF /* NewsfeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsfeedViewController.m; sourceTree = "<group>"; };
 		857D03DB1516AFF4007919EF /* ElectivesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElectivesViewController.h; sourceTree = "<group>"; };
 		857D03DC1516AFF4007919EF /* ElectivesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElectivesViewController.m; sourceTree = "<group>"; };
 		857D03E01516B2BF007919EF /* courseList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = courseList.plist; sourceTree = "<group>"; };
+		8580EFB11527D3A2000423D6 /* detailedElectivesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detailedElectivesView.h; sourceTree = "<group>"; };
+		8580EFB21527D3A2000423D6 /* detailedElectivesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detailedElectivesView.m; sourceTree = "<group>"; };
+		8580EFB31527D3A2000423D6 /* detailedElectivesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = detailedElectivesView.xib; sourceTree = "<group>"; };
+		8580EFB91527E000000423D6 /* informationCourseList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = informationCourseList.plist; sourceTree = "<group>"; };
 		8AEA8D6D150D462C0024EDAD /* ECE_Reference.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECE_Reference.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AEA8D71150D462C0024EDAD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8AEA8D73150D462C0024EDAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -90,6 +105,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		853F75841530308D00594B68 /* DetailedElectivesImages */ = {
+			isa = PBXGroup;
+			children = (
+				853F7586153030A700594B68 /* face.jpg */,
+			);
+			name = DetailedElectivesImages;
+			sourceTree = "<group>";
+		};
 		8AEA8D62150D462C0024EDAD = {
 			isa = PBXGroup;
 			children = (
@@ -128,14 +151,23 @@
 				8AEA8D83150D462D0024EDAD /* MainStoryboard_iPhone.storyboard */,
 				857D03DB1516AFF4007919EF /* ElectivesViewController.h */,
 				857D03DC1516AFF4007919EF /* ElectivesViewController.m */,
+				853F75841530308D00594B68 /* DetailedElectivesImages */,
+				8580EFB11527D3A2000423D6 /* detailedElectivesView.h */,
+				8580EFB21527D3A2000423D6 /* detailedElectivesView.m */,
+				8580EFB31527D3A2000423D6 /* detailedElectivesView.xib */,
 				857D03E01516B2BF007919EF /* courseList.plist */,
 				85572E111516BFDC002F297D /* detailCourseList.plist */,
+				8580EFB91527E000000423D6 /* informationCourseList.plist */,
 				857D03D61516AD45007919EF /* NewsfeedViewController.h */,
 				857D03D71516AD45007919EF /* NewsfeedViewController.m */,
 				8AEA8D86150D462D0024EDAD /* MainStoryboard_iPad.storyboard */,
 				8AEA8D89150D462D0024EDAD /* ViewController.h */,
+				850EB7351516C62300ACD45A /* VideoViewController.h */,
+				850EB7361516C62300ACD45A /* VideoViewController.m */,
 				8AEA8D8A150D462D0024EDAD /* ViewController.m */,
 				8AEA8D78150D462C0024EDAD /* Supporting Files */,
+				850EB7321516C58400ACD45A /* youtubeView.h */,
+				850EB7331516C58400ACD45A /* youtubeView.m */,
 			);
 			path = ECE_Reference;
 			sourceTree = "<group>";
@@ -246,6 +278,9 @@
 				8AEA8D88150D462D0024EDAD /* MainStoryboard_iPad.storyboard in Resources */,
 				857D03E11516B2BF007919EF /* courseList.plist in Resources */,
 				85572E121516BFDC002F297D /* detailCourseList.plist in Resources */,
+				8580EFB51527D3A2000423D6 /* detailedElectivesView.xib in Resources */,
+				8580EFBA1527E000000423D6 /* informationCourseList.plist in Resources */,
+				853F7587153030A700594B68 /* face.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +320,9 @@
 				8AEA8D8B150D462D0024EDAD /* ViewController.m in Sources */,
 				857D03D91516AD45007919EF /* NewsfeedViewController.m in Sources */,
 				857D03DE1516AFF4007919EF /* ElectivesViewController.m in Sources */,
+				850EB7341516C58400ACD45A /* youtubeView.m in Sources */,
+				850EB7381516C62300ACD45A /* VideoViewController.m in Sources */,
+				8580EFB41527D3A2000423D6 /* detailedElectivesView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
